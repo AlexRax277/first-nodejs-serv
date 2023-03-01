@@ -1,0 +1,28 @@
+{
+  "name": "first-nodejs-serv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start Server.js",
+    "list": "pm2 list",
+    "stop": "pm2 stop all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRax277/first-nodejs-serv.git"
+  },
+  "author": "AlexRax277",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRax277/first-nodejs-serv/issues"
+  },
+  "homepage": "https://github.com/AlexRax277/first-nodejs-serv#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-json": "^2.0.2",
+    "pm2": "^5.2.2"
+  }
+}
